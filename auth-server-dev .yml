@@ -1,7 +1,8 @@
 spring:
-  cloud:    stream:
+  cloud:    
+    stream:
       kafka:
         binder:
           brokers:  192.168.1.17:9092  # kafka服务地址和端口
           zk-nodes: 192.168.1.17:2181  # ZK的集群配置地址和端口
-           auto-create-topics: true
+          auto-create-topics: true
