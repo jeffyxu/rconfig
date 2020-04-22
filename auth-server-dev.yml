@@ -4,7 +4,7 @@ spring:
       kafka:
         binder:
           brokers: 192.168.1.17:9092
-          zk-nodes: 192.168.1.17:2180
+          zk-nodes: 192.168.1.17:2181
           auto-create-topics: true
 
       bindings:
